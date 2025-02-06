@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div>
+        <ul class="header">
+            <li class = "logo">
+                <img src="logo.png" alt="Logo"> 
+            </li>
+            <li>
+                <i class="fa-regular fa-envelope"></i>
+                info@gmail.com <br><b>Mail us</b>
+            </li>
+            <li >
+                <i class="fa-solid fa-phone-volume" ></i>
+                Request a call <br><b>1800-123-4567</b>
+            </li>
+            <li>
+                <i class="fa-solid fa-clock"></i>
+                Mon-Sat:<br><b> 9am-6pm </b>
+            </li>
+            <li> 
+                <i class="fa-solid fa-map-marker-alt"></i>
+                Pune, Maharashtra <br><b>India</b>
+            </li>
+        </ul>
+    </div>
+    <div class="nav">
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+        </div>
+        <div class="media">
+            <ul>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+               
+            </ul>
+        </div>
+    </div>
+    <div class="img">
+        <div class="img-text">
+            <h1>Register</h1>
+            <p><br>Home > Register</p>
+        </div>
+    </div>
+    <section class="register">
+        <div class="container">
+            <h1>Register</h1>
+            <label for="sponsor-id">Sponsor ID:</label>
+            <input type="text" id="sponsor-id" placeholder="Enter Sponsor ID">
+
+            <label for="sponsor-name">Sponsor Name:</label>
+            <input type="text" id="sponsor-name" placeholder="Enter Sponsor Name">
+
+            <label>Position:</label>
+            <div class="position">
+                <input type="radio" id="left" name="position" value="left">
+                <label for="left">Left</label>
+                <input type="radio" id="right" name="position" value="right">
+                <label for="right">Right</label>
+            </div>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Name">
+
+            <label for="mobile">Mobile:</label>
+            <input type="tel" id="mobile" placeholder="Enter Mobile Number">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter Email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter Password">
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" placeholder="Confirm Password">
+
+            <button type="submit">REGISTER</button>
+
+            <div class="login-link">
+                Already have an account? <a href="login.html">Login</a>
+            </div>
+        </div>
+    </section>
+    <section class="last-info">
+        <div class="last-container">
+            <img src="logo.png" alt="logo">
+            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <button class="btn">INFO@SENZENSE.COM</button>
+        </div>
+        <div class="last-container">
+            <h3><span>Our</span> Demo Site</h3>
+            <ul>
+                <li>lorem ipsum dolor</li>
+                <li>lorem ipsum dolor</li>
+                <li>lorem ipsum dolor</li>
+                <li>lorem ipsum dolor</li>
+                <li>lorem ipsum dolor</li>
+            </ul>
+        </div>
+        <div class="last-container">
+            <h3><span>Our</span> Demo Site</h3>
+            <ul>
+                <li>lorem ipsum dolor</li>
+                <li>lorem ipsum dolor</li>
+                <li>lorem ipsum dolor</li>
+                <li>lorem ipsum dolor</li>
+                <li>lorem ipsum dolor</li>
+            </ul>
+        </div>
+        <div class="last-container">
+            <h3><span>Official</span> Info :</h3>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-house"></i>
+                    1st Floor, ABC Complex, Pune, Maharashtra, India
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +91 1234567890
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +91 1234567890
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>2025 Senzense. All Rights Reserved by <span>SenZense Corporation</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
